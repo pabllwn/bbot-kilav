@@ -110,7 +110,7 @@ let role = guild.roles.cache.find(r => r.name === blacklistRoleName);
       });
     }
 
-    message.reply(DONE ✅ ${member.user.tag});
+    message.reply(DONE ${member.user.tag});
 
     // إرسال رسالة كل ساعة
     setInterval(() => {

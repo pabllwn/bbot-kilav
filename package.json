@@ -1,0 +1,13 @@
+{
+  "name": "discord-blacklist-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot to create a BLACKLISTED role and manage its permissions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "express": "^4.17.1"
+  }
+}
